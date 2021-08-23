@@ -5,8 +5,8 @@ class MemeGenerator extends React.Component {
   constructor() {
     super();
     this.state = {
-      topText: "There's always money",
-      bottomText: "in the banana stand",
+      topText: "",
+      bottomText: "",
       randomImg: "https://i.imgflip.com/1e7ql7.jpg",
       allMemeImgs: [],
       isLoading: false,
